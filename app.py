@@ -56,7 +56,7 @@ def selecting():
     records = cur.fetchall()
     conn.close()
     response_string=""
-    response_string+="<table>"
+    response_string+="<table width=30%>"
     for player in records:
         response_string+="<tr>"
         for info in player:
